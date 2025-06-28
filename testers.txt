@@ -1,0 +1,22 @@
+grep -oi 'rsjenkins.iil.intel.com' entities.xml | wc -l			#1114
+grep -oi 'ubit-artifactory-il.intel.com' entities.xml | wc -l 		#395
+grep -oi 'jira.devtools.intel.com' entities.xml | wc -l 		#13583
+grep -oi 'rsjira.devtools.intel.com' entities.xml | wc -l 		#0
+grep -oi 'rsconf.intel.com' entities.xml | wc -l 			#237
+grep -oi 'wiki.ith.intel.com' entities.xml | wc -l 			#7694
+
+
+grep -oi 'rsjenkins.iil.realsenseai.com' entities_new.xml | wc -l		#1114
+grep -oi 'ubit-artifactory-il.realsenseai.com' entities_new.xml | wc -l 	#395
+grep -oi 'rsjira.realsenseai.com' entities_new.xml | wc -l 			#13583
+grep -oi 'rsconf.realsenseai.com' entities_new.xml | wc -l 			#7913
+
+{
+  "rsjenkins.iil.intel.com": "rsjenkins.iil.realsenseai.com",
+  "ubit-artifactory-il.intel.com": "ubit-artifactory-il.realsenseai.com",
+  "jira.devtools.intel.com": "rsjira.realsenseai.com",
+  "rsjira.devtools.intel.com": "rsjira.realsenseai.com",
+  "rsconf.intel.com": "rsconf.realsenseai.com",
+  "wiki.ith.intel.com": "rsconf.realsenseai.com"
+}
+

@@ -1,0 +1,12 @@
+{
+  "rsjenkins.iil.intel.com": "rsjenkins.realsenseai.com",
+  "ubit-artifactory-il.intel.com": "rsartifactory.realsenseai.com",
+  "rsjira.intel.com": "rsjira.realsenseai.com",
+  "jira.devtools.intel.com": "rsjira.realsenseai.com",
+  "rsjira.devtools.intel.com": "rsjira.realsenseai.com",
+  "rsconf.intel.com ": "rsconf.realsenseai.com",
+  "wiki.ith.intel.com": "rsconf.realsenseai.com",
+  "intel.sharepoint.com": "realsensecloud.sharepoint.com",
+  "devtools.intel.com": "realsenseai.com"
+}
+
